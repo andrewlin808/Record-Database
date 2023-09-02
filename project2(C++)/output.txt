@@ -1,0 +1,211 @@
+Script started on Sun 24 Apr 2022 10:20:15 PM HST
+]0;andrewl2@uhx02:~/homeworks/project2[?1034huhx02:/home/a/andrewl2/homeworks/project2% ./project
+
+Welcome! You have entered the user interface for managing customer's banking records
+
+
+Select one of the options below:
+add: add a new customer record
+printall: print all existing record(s)
+find: find record(s) of an existing customer
+delete: delete record(s) of an existing customer
+quit: exit the program
+Awaiting input...
+q
+
+Quitting the program...
+]0;andrewl2@uhx02:~/homeworks/project2uhx02:/home/a/andrewl2/homeworks/project2% ./project_debu[Kug
+
+******************************
+Function: int llist::readfile()
+
+******************************
+
+
+***** PROJECT_DEBUG *****
+
+Welcome! You have entered the user interface for managing customer's banking records
+
+
+Select one of the options below:
+add: add a new customer record
+printall: print all existing record(s)
+find: find record(s) of an existing customer
+delete: delete record(s) of an existing customer
+quit: exit the program
+Awaiting input...
+a
+
+Add a new record:
+
+******************************
+Function: int getaccountnum()
+
+******************************
+Enter the account number: 
+12345
+
+Enter the account name: 
+andrew lin
+
+******************************
+Function: void getaddress ( char address[], int length )
+
+******************************
+Enter the account mailing address (type '!' at the end to indicate the end of the address)
+2525
+Dole St,
+HI 96822!
+
+Adding a new record to database...
+
+******************************
+Function: void llist::addRecord ( int uaccountno, char uname[], char uaddress[] )
+
+uaccountno: 12345
+uname: andrew lin
+uaddress: 2525
+Dole St,
+HI 96822
+******************************
+
+
+Record with account #12345 has been added
+
+Select one of the options below:
+add: add a new customer record
+printall: print all existing record(s)
+find: find record(s) of an existing customer
+delete: delete record(s) of an existing customer
+quit: exit the program
+Awaiting input...
+p
+
+Printing all records...
+
+******************************
+Function: void llist::printAllRecords()
+
+******************************
+
+
+Record Entry #1
+Account #12345
+Name: andrew lin
+Address:
+2525
+Dole St,
+HI 96822
+
+---End-of-Records-List---
+
+
+Select one of the options below:
+add: add a new customer record
+printall: print all existing record(s)
+find: find record(s) of an existing customer
+delete: delete record(s) of an existing customer
+quit: exit the program
+Awaiting input...
+f
+
+Find record(s):
+
+******************************
+Function: int getaccountnum()
+
+******************************
+Enter the account number: 
+12345
+
+******************************
+Function: int llist::findRecord ( int uaccountno )
+
+uaccountno: 12345
+******************************
+
+
+Printing account(s) with #12345
+
+Record Entry #1
+Account #12345
+Name: andrew lin
+
+Select one of the options below:
+add: add a new customer record
+printall: print all existing record(s)
+find: find record(s) of an existing customer
+delete: delete record(s) of an existing customer
+quit: exit the program
+Awaiting input...
+q
+
+Quitting the program...
+
+******************************
+Function: int llist::writefile()
+
+******************************
+
+
+******************************
+Function: void llist::cleanup()
+
+******************************
+
+]0;andrewl2@uhx02:~/homeworks/project2uhx02:/home/a/andrewl2/homeworks/project2% ./project
+
+Welcome! You have entered the user interface for managing customer's banking records
+
+
+Select one of the options below:
+add: add a new customer record
+printall: print all existing record(s)
+find: find record(s) of an existing customer
+delete: delete record(s) of an existing customer
+quit: exit the program
+Awaiting input...
+p
+
+Printing all records...
+
+Record Entry #1
+Account #12345
+Name: andrew lin
+Address:
+2525
+Dole St,
+HI 96822
+
+---End-of-Records-List---
+
+
+Select one of the options below:
+add: add a new customer record
+printall: print all existing record(s)
+find: find record(s) of an existing customer
+delete: delete record(s) of an existing customer
+quit: exit the program
+Awaiting input...
+d
+
+Delete record(s):
+Enter the account number: 
+12345
+
+Record(s) with account #12345 have been deleted
+
+Select one of the options below:
+add: add a new customer record
+printall: print all existing record(s)
+find: find record(s) of an existing customer
+delete: delete record(s) of an existing customer
+quit: exit the program
+Awaiting input...
+q
+
+Quitting the program...
+]0;andrewl2@uhx02:~/homeworks/project2uhx02:/home/a/andrewl2/homeworks/project2% exit
+exit
+
+Script done on Sun 24 Apr 2022 10:21:29 PM HST

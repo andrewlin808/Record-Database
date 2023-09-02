@@ -1,0 +1,21 @@
+Script started on Sun 24 Apr 2022 10:17:59 PM HST
+]0;andrewl2@uhx02:~/homeworks/project2[?1034huhx02:/home/a/andrewl2/homeworks/project2% [Kuhx02:/home/a/andrewl2/homeworks/project2% [Kuhx02:/home/a/andrewl2/homeworks/project2% [Kuhx02:/home/a/andrewl2/homeworks/project2% [Kuhx02:/home/a/andrewl2/homeworks/project2% [Kuhx02:/home/a/andrewl2/homeworks/project2% [Kuhx02:/home/a/andrewl2/homeworks/project2% [Kuhx02:/home/a/andrewl2/homeworks/project2% [Kuhx02:/home/a/andrewl2/homeworks/project2% [Kuhx02:/home/a/andrewl2/homeworks/project2% [Kuhx02:/home/a/andrewl2/homeworks/project2% [Kuhx02:/home/a/andrewl2/homeworks/project2% [Kuhx02:/home/a/andrewl2/homeworks/project2% [Kuhx02:/home/a/andrewl2/homeworks/project2% [Kuhx02:/home/a/andrewl2/homeworks/project2% [Kuhx02:/home/a/andrewl2/homeworks/project2% touch *.cpp
+]0;andrewl2@uhx02:~/homeworks/project2uhx02:/home/a/andrewl2/homeworks/project2% make -f debug.mka[K[Kak
+g++ -ansi -pedantic-errors -Wall -DDEBUG -c user_interface.cpp
+g++ -ansi -pedantic-errors -Wall -DDEBUG -c llist.cpp
+g++ -o project_debug user_interface.o llist.o
+]0;andrewl2@uhx02:~/homeworks/project2uhx02:/home/a/andrewl2/homeworks/project2% touch [K[K[K[K[K[Ktouch ([K*.o
+]0;andrewl2@uhx02:~/homeworks/project2uhx02:/home/a/andrewl2/homeworks/project2% make -fdebug.m[K[K[K[K[K[K[K[K d[K[Kf debug.mak
+g++ -o project_debug user_interface.o llist.o
+]0;andrewl2@uhx02:~/homeworks/project2uhx02:/home/a/andrewl2/homeworks/project2% touch *.cpp
+]0;andrewl2@uhx02:~/homeworks/project2uhx02:/home/a/andrewl2/homeworks/project2% make -f d[Krelease.mak
+g++ -ansi -pedantic-errors -Wall -c user_interface.cpp
+g++ -ansi -pedantic-errors -Wall -c llist.cpp
+g++ -o project user_interface.o llist.o
+]0;andrewl2@uhx02:~/homeworks/project2uhx02:/home/a/andrewl2/homeworks/project2% touch *0[K.o
+]0;andrewl2@uhx02:~/homeworks/project2uhx02:/home/a/andrewl2/homeworks/project2% make -f release.mak
+g++ -o project user_interface.o llist.o
+]0;andrewl2@uhx02:~/homeworks/project2uhx02:/home/a/andrewl2/homeworks/project2% exit
+exit
+
+Script done on Sun 24 Apr 2022 10:19:22 PM HST
