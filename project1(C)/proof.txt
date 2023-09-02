@@ -1,0 +1,23 @@
+Script started on Tue 29 Mar 2022 09:49:42 PM HST
+]0;andrewl2@uhx02:~/homeworks/project1[?1034huhx02:/home/a/andrewl2/homeworks/project1% touch ([K*.c
+]0;andrewl2@uhx02:~/homeworks/project1uhx02:/home/a/andrewl2/homeworks/project1% k[Kmake
+gcc -ansi -pedantic-errors -Wall -c user_interface.c
+gcc -ansi -pedantic-errors -Wall -c database.c
+gcc -o project1 user_interface.o database.o
+]0;andrewl2@uhx02:~/homeworks/project1uhx02:/home/a/andrewl2/homeworks/project1% touch *.o
+]0;andrewl2@uhx02:~/homeworks/project1uhx02:/home/a/andrewl2/homeworks/project1% make
+gcc -o project1 user_interface.o database.o
+]0;andrewl2@uhx02:~/homeworks/project1uhx02:/home/a/andrewl2/homeworks/project1% touch .[Kuser_interface.c
+]0;andrewl2@uhx02:~/homeworks/project1uhx02:/home/a/andrewl2/homeworks/project1% mae[Kke
+gcc -ansi -pedantic-errors -Wall -c user_interface.c
+gcc -o project1 user_interface.o database.o
+]0;andrewl2@uhx02:~/homeworks/project1uhx02:/home/a/andrewl2/homeworks/project1% touch database.c
+]0;andrewl2@uhx02:~/homeworks/project1uhx02:/home/a/andrewl2/homeworks/project1% make
+gcc -ansi -pedantic-errors -Wall -c database.c
+gcc -o project1 user_interface.o database.o
+]0;andrewl2@uhx02:~/homeworks/project1uhx02:/home/a/andrewl2/homeworks/project1% make
+make: `project1' is up to date.
+]0;andrewl2@uhx02:~/homeworks/project1uhx02:/home/a/andrewl2/homeworks/project1% exit
+exit
+
+Script done on Tue 29 Mar 2022 09:50:11 PM HST

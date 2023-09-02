@@ -1,0 +1,124 @@
+Script started on Tue 29 Mar 2022 08:02:14 PM HST
+]0;andrewl2@uhx02:~/homeworks/project1[?1034huhx02:/home/a/andrewl2/homeworks/project1% .//[Kproject1 deub[K[Kbug
+
+
+***** project1 running under debug mode! *****
+
+
+
+***** Function: readfile(struct record ** start, char filename[]) *****
+***** char filename[]:
+records.txt
+*****
+
+0 records were written onto records.txt
+
+
+Welcome! You have entered the user interface for managing customer's banking records
+
+
+Select one of the options below:
+add: add a new customer record
+printall: print all existing record(s) of customers
+find: find record(s) of an existing customer
+delete: delete record(s) of an existing customer
+quit: exit the program
+Awaiting input...
+q
+Quitting the program...
+
+
+***** Function: writefile(struct record * start, char filename[]) *****
+***** char filename[]:
+records.txt
+*****
+
+0 records were written onto records.txt
+
+
+***** Function: cleanup(struct record ** start) *****
+
+]0;andrewl2@uhx02:~/homeworks/project1uhx02:/home/a/andrewl2/homeworks/project1% ./project1 
+
+
+Welcome! You have entered the user interface for managing customer's banking records
+
+
+Select one of the options below:
+add: add a new customer record
+printall: print all existing record(s) of customers
+find: find record(s) of an existing customer
+delete: delete record(s) of an existing customer
+quit: exit the program
+Awaiting input...
+a
+
+Add a new record:
+
+Enter the account number to find: 
+1234
+
+Enter the account name: 
+andrew lin
+Enter the account mailing address: (type '!' at the end to indicate the end of the address)
+2555
+Dole  
+98 6822!
+
+Adding new record to database: 
+
+Record with account #1234 has been added to the database!
+
+Select one of the options below:
+add: add a new customer record
+printall: print all existing record(s) of customers
+find: find record(s) of an existing customer
+delete: delete record(s) of an existing customer
+quit: exit the program
+Awaiting input...
+p
+
+Print all records:
+
+Record Entry #1
+Account #1234
+Name: andrew lin
+Address:
+2555
+Dole
+96822
+
+---End-of-Records-List---
+
+
+Select one of the options below:
+add: add a new customer record
+printall: print all existing record(s) of customers
+find: find record(s) of an existing customer
+delete: delete record(s) of an existing customer
+quit: exit the program
+Awaiting input...
+d d
+
+Delete record(s):
+
+Enter the account number to find: 
+1234
+
+valid
+
+All records with account #1234 have been deleted!
+
+Select one of the options below:
+add: add a new customer record
+printall: print all existing record(s) of customers
+find: find record(s) of an existing customer
+delete: delete record(s) of an existing customer
+quit: exit the program
+Awaiting input...
+q
+Quitting the program...
+]0;andrewl2@uhx02:~/homeworks/project1uhx02:/home/a/andrewl2/homeworks/project1% exit
+exit
+
+Script done on Tue 29 Mar 2022 08:02:50 PM HST

@@ -1,0 +1,7 @@
+project1 was test thoroughly. the executable was first tested against invalid arguments of debug mode, and all tested invalid arguments did not proceed to run the program as expected. project1 was test in both normal and debug mode. Under (and only under) debug mode, special messages denoted by the "***** <message> *****" format were printed onto the terminal for all functions (except main) when function were called with valid inputs from the user.
+
+An array of invalid inputs were tested against all the possible menu options, and results in the reappearance of the menu and being asked for a valid input. Shortened menu option inputs were accepted.
+
+writefile and readfile were called when exiting the program and when starting the program with a valid state (normal or debug). Records were written onto records.txt appropriately, and checked repetitively for errors.
+
+The series of tests concludes with all successful and accurate results, with no segmentation fault/core dump. project executes as expected.
